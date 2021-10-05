@@ -1,9 +1,9 @@
 body,html{
     background-color: hsl(218, 28%, 13%);  ;
     color: white;
-    height: 100%;
-    width:100%;
+    
     font-size: 14px;
+    overflow-x: hidden;
         
 }
 
@@ -34,6 +34,10 @@ body,html{
     width: 300px;
 }
 
+.he{
+    /* width: 400px; */
+    
+}
 .btnb{
     width: 180px;
 }
@@ -176,13 +180,14 @@ input{
     margin-top:50px
 }
 
-@media (max-width: 375px){
+@media screen and (max-width: 480px){
     body,html{
-        font-size: 12px;
-        width: 100vw;
+        font-size: 10px;
+        
+        overflow-x: hidden;
     }
 
-.container-fluid{
+/* .container-fluid{
         background-color: hsl(217, 28%, 15%);  
         background-image: url(./bg-curvy-mobile.svg);
         background-repeat: no-repeat;
@@ -190,7 +195,7 @@ input{
         width: 100vw;
         /* background-size:  */
         /* background-attachment:; */   
-}
+
 .actions{
     margin-left: 10px;
     margin-right: 10px;
@@ -201,6 +206,12 @@ input{
 }
 .illustration-intro{
     width: 100vw;
+
+}
+
+.illustration-intro p{
+    font-size: 10px;
+    
 }
 
 .staying-productive{
@@ -283,6 +294,7 @@ input{
     padding-bottom: 5px;
     margin-left: 120px;
     margin-right: 120px;
+    font-size: 14px;
 }
 
 .container-fluid{
@@ -290,7 +302,8 @@ input{
     background-image: url(./bg-curvy-desktop.svg);
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size: 380px 120px;
+    background-size: 420px 120px;
+    width: 100vw;
 }
 
 
@@ -309,5 +322,14 @@ input{
 }
 .stay h3{
     width: 300px;
+}
+.outline{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    padding-bottom: 5px;
+    
 }
 }
