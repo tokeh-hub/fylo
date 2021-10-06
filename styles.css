@@ -34,9 +34,9 @@ body,html{
     width: 300px;
 }
 
-.he{
-    /* width: 400px; */
-    
+.actions p{
+    width: 300px;
+    margin-left:120px
 }
 .btnb{
     width: 180px;
@@ -178,6 +178,151 @@ input{
 
 .row-child{
     margin-top:50px
+}
+
+@media screen and (max-width:768px){
+    body,html{
+        font-size: 14px;
+        
+        overflow-x: hidden;
+    }
+
+
+.actions{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px
+}
+
+.actions p{
+    width: 400px;
+    margin-left:120px
+}
+.illustration-intro img{
+      width: 550px;
+}
+.illustration-intro{
+    width: 100vw;
+
+}
+
+.illustration-intro p{
+    font-size: 14px;
+    
+}
+.container-fluid{
+    background-color: hsl(217, 28%, 15%);  
+    background-image: url(./bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 750px 130px;
+    width: 100vw;
+}
+.staying-productive{
+    margin-left: 55px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.staying-productive img{
+          width: 550px;
+}
+
+.actions .row div{
+    padding: 10px;
+    font-size: 12px ;
+}
+h3{
+    font-size: 20px;
+}
+
+.quotes{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    justify-content: center;
+    grid-row-gap: 30px;
+    margin-bottom: 200px;  
+}
+
+.quotation-mark{
+    margin-left: 5px ;
+}
+
+footer{
+    width: 100vw;
+    background-color: hsl(216, 53%, 9%);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 100px;
+  }
+
+  .extra{
+    background-color: hsl(217, 28%, 15%);
+    width: 90%;
+    height: 250px;
+    text-align: center;
+    transform: translateY(-100px);
+    margin-left: 20px;
+    
+    padding: 10px;
+    font-size: 12px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+} 
+.btnb{
+    width: 280px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+input{
+    width: 280px;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pad{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+.location{
+    margin-left: 5px;
+}
+.contact{
+    margin-left: 25px;
+}
+.socials{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin-left: 300px;
+    margin-right: 120px;
+
+}
+
+
+
+
+.row-child{
+    margin-top:30px
+}
+.ex{
+    margin-top:30px;
+}
+
+.stay .first{
+    width: 280px;
+}
+.stay .second{
+    width:300px;
+}
+.stay h3{
+    width: 300px;
+}
+
+
 }
 
 @media screen and (max-width: 480px){
@@ -332,4 +477,10 @@ input{
     padding-bottom: 5px;
     
 }
+.actions p{
+    width: 300px;
+    margin-left:20px
 }
+}
+
+
